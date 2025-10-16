@@ -1,0 +1,7 @@
+[build]
+  command = "python3 -m pygbag main.py"
+  publish = "build/web"
+
+[build.environment]
+  PYTHON_VERSION = "3.10"
+  PIP_NO_CACHE_DIR = "1"
